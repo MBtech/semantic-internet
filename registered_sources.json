@@ -1,0 +1,249 @@
+[
+    {
+        "name": "bbc",
+        "description": "bbc news",
+        "endpoint": "https://www.bbc.com/news",
+        "category": "news_site",
+        "scope": {
+            "topics": [
+                "News & Current Affairs",
+                "Business & Finance"
+            ],
+            "granularity": "broad",
+            "languages": [
+                "en"
+            ],
+            "geographic_coverage": "international",
+            "country_codes": [
+                "intl"
+            ],
+            "temporal_coverage": "current"
+        },
+        "content": {
+            "content_types": [
+                "article"
+            ],
+            "data_format": "unstructured",
+            "license": "public_domain"
+        },
+        "access": {
+            "query_protocols": [
+                "rest"
+            ],
+            "rate_limit": null,
+            "access_cost": "free",
+            "authentication_required": ["none"]
+        },
+        "performance": null,
+        "relevance": null,
+        "security": null,
+        "max_top_k": 10
+    },
+    {
+        "name": "wikipedia",
+        "description": "free online encyclopedia",
+        "endpoint": "https://en.wikipedia.org",
+        "category": "wiki",
+        "scope": {
+            "topics": [
+                "History & Heritage",
+                "Science & Research"
+            ],
+            "granularity": "broad",
+            "languages": [
+                "en"
+            ],
+            "geographic_coverage": "international",
+            "country_codes": [
+                "intl"
+            ],
+            "temporal_coverage": "all"
+        },
+        "content": {
+            "content_types": [
+                "article",
+                "image"
+            ],
+            "data_format": "semi_structured",
+            "license": "CC-BY-SA"
+        },
+        "access": {
+            "query_protocols": [
+                "rest"
+            ],
+            "rate_limit": null,
+            "access_cost": "free",
+            "authentication_required": ["none"]
+        },
+        "performance": null,
+        "relevance": null,
+        "security": null,
+        "max_top_k": 10
+    },
+    {
+        "name": "twitter",
+        "description": "social media microblogging platform",
+        "endpoint": "https://api.twitter.com",
+        "category": "social_media",
+        "scope": {
+            "topics": [
+                "News & Current Affairs",
+                "Society & Social Issues"
+            ],
+            "granularity": "specialized",
+            "languages": [
+                "multilingual"
+            ],
+            "geographic_coverage": "international",
+            "country_codes": [
+                "intl"
+            ],
+            "temporal_coverage": "current"
+        },
+        "content": {
+            "content_types": [
+                "blog_post",
+                "image",
+                "video"
+            ],
+            "data_format": "semi_structured",
+            "license": "proprietary"
+        },
+        "access": {
+            "query_protocols": [
+                "rest",
+                "graphql"
+            ],
+            "rate_limit": null,
+            "access_cost": "free",
+            "authentication_required": ["none"]
+        },
+        "performance": null,
+        "relevance": null,
+        "security": null,
+        "max_top_k": 10
+    },
+    {
+        "name": "youtube",
+        "description": "video sharing and streaming platform",
+        "endpoint": "https://www.googleapis.com/youtube/v3",
+        "category": "entertainment",
+        "scope": {
+            "topics": [
+                "Entertainment & Media",
+                "Education & Learning",
+                "News & Current Affairs"
+            ],
+            "granularity": "broad",
+            "languages": [
+                "multilingual"
+            ],
+            "geographic_coverage": "international",
+            "country_codes": [
+                "intl"
+            ],
+            "temporal_coverage": "all"
+        },
+        "content": {
+            "content_types": [
+                "video",
+                "audio"
+            ],
+            "data_format": "structured",
+            "license": "other"
+        },
+        "access": {
+            "query_protocols": [
+                "rest"
+            ],
+            "rate_limit": null,
+            "access_cost": "free",
+            "authentication_required": ["none"]
+        },
+        "performance": null,
+        "relevance": null,
+        "security": null,
+        "max_top_k": 10
+    },
+    {
+        "name": "arxiv",
+        "description": "open access repository of scholarly papers",
+        "endpoint": "https://arxiv.org",
+        "category": "research",
+        "scope": {
+            "topics": [
+                "Science & Research",
+                "Technology & Innovation"
+            ],
+            "granularity": "specialized",
+            "languages": [
+                "en"
+            ],
+            "geographic_coverage": "international",
+            "country_codes": [
+                "intl"
+            ],
+            "temporal_coverage": "all"
+        },
+        "content": {
+            "content_types": [
+                "article"
+            ],
+            "data_format": "structured",
+            "license": "other"
+        },
+        "access": {
+            "query_protocols": [
+                "rest",
+                "other"
+            ],
+            "rate_limit": null,
+            "access_cost": "free",
+            "authentication_required": ["none"]
+        },
+        "performance": null,
+        "relevance": null,
+        "security": null,
+        "max_top_k": 10
+    },
+    {
+        "name": "github",
+        "description": "software development collaboration platform",
+        "endpoint": "https://api.github.com",
+        "category": "other",
+        "scope": {
+            "topics": [
+                "Technology & Innovation"
+            ],
+            "granularity": "specialized",
+            "languages": [
+                "multilingual"
+            ],
+            "geographic_coverage": "international",
+            "country_codes": [
+                "intl"
+            ],
+            "temporal_coverage": "all"
+        },
+        "content": {
+            "content_types": [
+                "code"
+            ],
+            "data_format": "structured",
+            "license": "other"
+        },
+        "access": {
+            "query_protocols": [
+                "rest",
+                "graphql"
+            ],
+            "rate_limit": null,
+            "access_cost": "free",
+            "authentication_required": ["none"]
+        },
+        "performance": null,
+        "relevance": null,
+        "security": null,
+        "max_top_k": 10
+    }
+]

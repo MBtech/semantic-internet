@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-genai
+sentence-transformers
+datasets
+pyarrow
+rank-bm25
+torch
+transformers
+chromadb
+openai
