@@ -9,3 +9,10 @@ torch
 transformers
 chromadb
 openai
+ddgs
+beautifulsoup4
+langchain-text-splitters
+selenium
+seaborn
+docling
+timeout-function-decorator

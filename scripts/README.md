@@ -1,0 +1,1 @@
+For trivia only first 1000 questions are used and 20 search results
